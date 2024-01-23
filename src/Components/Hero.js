@@ -46,10 +46,10 @@ export const Hero = () => {
                                     {/* Paragraph */}
                                     <div className='text-[20px] text-offWhite font-normal leading-[27.32px] font-Manrope'>
                                         Yet bed any for travelling assistance
-                                        indulgence unpleasing.<br></br>
+                                        indulgence unpleasing.
                                         Not thoughts all
-                                        exercise blessing. Indulgence way<br></br> everything
-                                        joy alteration boisterous the attachment. Party<br></br> we years
+                                        exercise blessing. Indulgence way everything
+                                        joy alteration boisterous the attachment. Party we years
                                         to order allow asked of.
                                     </div>
                                     {/* Input Bar+ btn */}
