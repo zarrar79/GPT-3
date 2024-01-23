@@ -16,7 +16,7 @@ export const Hero = () => {
                             <div className='pt-[5px]'><img src={GPT}></img></div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Home</div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>What is GPT?</div>
-                            <div className=' *:hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Open AI</div>
+                            <div className=' hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Open AI</div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Case Studies</div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Library</div>
                         </div>
