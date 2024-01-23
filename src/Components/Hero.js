@@ -8,11 +8,11 @@ export const Hero = () => {
         <>
             <div className="bg-[#041123]">
                 {/* Fluid Container */}
-                <div className='mx-auto max-w-[1100px]'>
+                <div className='mx-auto max-w-[1100px] mxLarge'>
                     {/* Navbar */}
-                    <nav className='flex space-x-44 pt-9'>
+                    <nav className='flex justify-between pt-9 large'>
                         {/* Left side */}
-                        <div className=' font-Manrope flex space-x-[40px] pt-[8px]'>
+                        <div className='font-Manrope flex space-x-[40px] pt-[8px]'>
                             <div className='pt-[5px]'><img src={GPT}></img></div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>Home</div>
                             <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[18px] font-medium text-white cursor-pointer'>What is GPT?</div>
@@ -31,14 +31,14 @@ export const Hero = () => {
                     {/* Hero section */}
                     <section>
                         {/* Grid */}
-                        <div className='grid grid-cols-3'>
+                        <div className='grid grid-cols-3 mt-32'>
                             {/* Left */}
                             <div className='col-span-2'>
                                 {/* Inner Parent */}
-                                <div className='space-y-[30px] pt-[57px]'>
+                                <div className='space-y-[30px]'>
                                     {/* Header */}
                                     <div className='font-Manrope text-[62px] font-[800]
-                                        custom-text-gradient leading-[75px]'>
+                                        custom-text-gradient leading-[75px] text'>
                                         Let’s Build Something
                                         amazing with GPT-3
                                         OpenAI
