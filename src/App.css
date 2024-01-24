@@ -116,6 +116,20 @@
   box-shadow : 3px 5px 8px black ;
 }
 @media (max-width:1192px){
+  .people_text{
+    text-align:center;
+    align-items:center;
+    display :block;
+  }
+  .people{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+  }
+  .people_text{
+    display:block;
+    justify-content:center;
+  }
   .ch_Img img{
     max-width:1000px;
     height:1018px
@@ -148,6 +162,9 @@
     
   }
   @media (max-width:1088px){
+    .text_img{
+      margin-top:100px;
+    }
     .inp input{
       padding:15px;
       width:400px;
@@ -220,6 +237,9 @@
   }
  }
  @media (max-width:596px){
+  .text_img{
+    margin-top:90px;
+  }
   .mxLarge{
     max-width:480px;
   }
@@ -254,6 +274,9 @@
   }
  }
  @media (max-width:410px){
+  .text_img{
+    margin-top:60px;
+  }
   .mxLarge{
     max-width:300px;
   }

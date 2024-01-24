@@ -115,9 +115,9 @@ export const Hero = () => {
                                         </div>
                                     </div>
                                     {/* Peoples+text */}
-                        <div className='flex text-center items-center space-x-[15px] mt-[30px]'>
+                        <div className='people_text flex text-center items-center space-x-[15px] mt-[30px]'>
                             {/* People */}
-                            <div className=''>
+                            <div className='people'>
                                 <img src={group}></img>
                             </div>
                             {/* text */}
