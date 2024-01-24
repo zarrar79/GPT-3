@@ -263,11 +263,12 @@
   }
   .inp input{
     width:270px;
-    font-size:13px;
+    font-size:16px;
   }
   .inp button{
-    padding:9px;
-     font-size:12px;
+    text-align:center;
+    padding:12px;
+     font-size:16px;
   }
   .img_Illusion img{
     max-width:250px;
