@@ -277,6 +277,9 @@
   .text_img{
     margin-top:60px;
   }
+  .inp button{
+    padding:10.5px;
+  }
   .mxLarge{
     max-width:300px;
   }
