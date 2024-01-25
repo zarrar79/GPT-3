@@ -32,7 +32,7 @@ export const GPT_3 = () => {
                             {/* Possibility */}
                             <div className='poss font-Manrope text-[34px] font-[800] custom-text-gradient'>The possibilities are beyond<br></br> your imagination</div>
                             {/* library */}
-                            <div className='library text-center pt-2 font-Manrope text-[500] text-[16px] text-[#FF8A71]'>Explore The Library</div>
+                            <div className='library text-center pt-2 font-Manrope text-[500] text-[16px] text-[#FF8A71] cursor-pointer'>Explore The Library</div>
                         </div>
                         {/* Parent of boxes */}
                         <div className='parent_boxes grid grid-cols-3 gap-10 mt-[5.5rem]'>

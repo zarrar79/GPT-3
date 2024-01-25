@@ -139,11 +139,11 @@ export const Hero = () => {
                         </div> 
                         <div className='flex justify-center mt-16'>
                             <div className='social flex '>
-                                <div className='google mr-9'><img src={google}></img></div>
-                                <div className='slack mr-9'><img src={slack}></img></div>
-                                <div className='atlass mr-9'><img src={atlassian}></img></div>
-                                <div className='dropbox mr-9'><img src={dropbox}></img></div>
-                                <div className='shopify mr-9'><img src={shopify}></img></div>
+                                <div className='google mr-9 cursor-pointer'><img src={google}></img></div>
+                                <div className='slack mr-9 cursor-pointer'><img src={slack}></img></div>
+                                <div className='atlass mr-9 cursor-pointer'><img src={atlassian}></img></div>
+                                <div className='dropbox mr-9 cursor-pointer'><img src={dropbox}></img></div>
+                                <div className='shopify mr-9 cursor-pointer'><img src={shopify}></img></div>
                                 
                             </div>
                         </div>
