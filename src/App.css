@@ -199,6 +199,20 @@
   }
  }
  @media (max-width:815px){
+  .girl_para{
+    padding:0;
+    display:block;
+  }
+  .girl img{
+    max-width:430px;
+  }
+  .girl{
+    display:flex;
+    justify-content:center;
+  }
+  .para{
+    padding-top:70px;
+  }
   .mxLarge{
     max-width:680px;
   }
@@ -274,6 +288,9 @@
   }
  }
  @media (max-width:596px){
+  .girl img{
+    max-width:350px;
+  }
   .text_img{
     margin-top:90px;
   }
@@ -320,6 +337,12 @@
   }
  }
  @media (max-width:410px){
+  .girl{
+    display:none;
+  }
+  .para{
+    padding-left:0px;
+  }
   .card_bg{
     padding:1.5rem;
   }

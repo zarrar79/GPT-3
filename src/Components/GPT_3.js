@@ -1,4 +1,5 @@
 import React from 'react'
+import feature from './Feature Image.png'
 
 export const GPT_3 = () => {
     return (
@@ -8,7 +9,7 @@ export const GPT_3 = () => {
                 {/* Fluid container */}
                 <div className='mx-auto max-w-[1100px] mxLarge pt-[0.5px]'>
                     {/* Card Parent */}
-                    <div className='card_bg p-16 pt-0 pb-9 mt-16'>
+                    <div className='card_bg p-16 pt-0 pb-12 mt-16'> {/*pb-9*/}
                         {/* What is gpt-3 */}
                         <div className='what grid grid-cols-4 pt-14 gap-10'>
                             {/* bar+head */}
@@ -77,6 +78,27 @@ export const GPT_3 = () => {
                                 <div className='text font-Manrope text-[#81AFDD] text-[16px] text-[500] mt-[1.35rem]'>
                                     At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*parent box */}
+                    <div className='pt-16'>
+                        {/* girl + paragraph */}
+                        <div className='girl_para grid grid-cols-2 pl-10'>
+                            {/* girl */}
+                            <div className='girl'><img src={feature}></img></div>
+                            {/* paragrap */}
+                            <div className='para flex flex-col justify-center pl-16 pt-[150px]'>
+                                {/* small */}
+                                <div className='font-Manrope font-[500] text-[16px] text-[#71E5FF] pb-3'>Request Early Access to Get Started</div>
+                                {/* Large Para */}
+                                <div className='custom-text-gradient font-Manrope font-[800] text-[34px] leading-[45px] pb-3'>The possibilities are beyond your imagination</div>
+                                {/* mid */}
+                                <div className='font-Manrope text-[16px] font-[400] text-[#81AFDD] pb-3'>Yet bed any for travelling assistance 
+                                    indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy 
+                                    alteration boisterous the attachment. Party we years to order allow asked of.</div>
+                                {/* small */}
+                                <div className='font-Manrope font-[500] text-[16px] text-[#FF8A71]' >Request Early Access to Get Started</div>
                             </div>
                         </div>
                     </div>
