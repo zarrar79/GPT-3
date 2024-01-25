@@ -194,18 +194,45 @@
     max-width:500px;
     height:auto;
   }
+  .what{
+    display:block;
+  }
  }
  @media (max-width:815px){
   .mxLarge{
     max-width:680px;
   }
+  .parent_boxes{
+    display:block;
+  }
+  .chat{
+    margin-top:5px;
+  }
+  .text{
+    margin-top:5px;
+    margin-bottom:15px
+  }
  }
  @media (max-width:703px){
+  .poss_lib{
+    margin-top:4rem;
+    display:block;
+  }
+  .library{
+    margin-top:5px;
+    float:right;
+  }
+  .bar{
+    clear:both;
+  }
+  .poss{
+    font-weight:600;
+  }
   .social{
     padding:0;
     margin:0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap:40px;
   }
   .shopify,.dropbox,.google,.slack,.atlass{
@@ -288,6 +315,19 @@
   }
  }
  @media (max-width:410px){
+  .social{
+    grid-template-columns:1fr 1fr;
+  }
+  .poss{
+    font-size:26px;
+  }
+  .poss_lib{
+    text-align:center;
+  }
+  .library{
+    font-size:13px;
+    float:none;
+  }
   .text_img{
     margin-top:60px;
   }
