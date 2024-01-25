@@ -201,6 +201,16 @@
   }
  }
  @media (max-width:703px){
+  .social{
+    padding:0;
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+  }
+  .shopify,.dropbox,.google,.slack,.atlass{
+    margin:0;
+  }
   .mxLarge{
     max-width:580px;
   }
@@ -245,6 +255,9 @@
   }
  }
  @media (max-width:495px){
+  .shopify img,.dropbox img,.slack img,.atlass img,.atlass img,.google img{
+    max-width:90px;
+  }
   .mxLarge{
     max-width:390px;
   }
@@ -298,3 +311,11 @@
     max-width:250px;
   }
  }
+ .element_2 {
+  background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+.card_bg
+{/* global 94%+ browsers support */
+  background: linear-gradient(142deg, rgba(13, 65, 119, 1) 12%, rgba(4, 44, 84, 1) 86%, rgba(27, 120, 222, 1) 100%);
+}

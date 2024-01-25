@@ -2,6 +2,11 @@ import React from 'react'
 import GPT from './GPT-3.png';
 import header from './Header Illustration.png'
 import head from './Header.png'
+import shopify from './shopify.png'
+import slack from './slack.png'
+import dropbox from './dropbox.png'
+import google from './google.png'
+import atlassian from './atlassian.png'
 import group from './Group 81.png'
 export const Hero = () => {
     const display = () => {
@@ -131,9 +136,17 @@ export const Hero = () => {
                             <div className='img_Illusion'>
                                 <img src={header}></img>
                             </div>
+                        </div> 
+                        <div className='flex justify-center mt-16'>
+                            <div className='social flex '>
+                                <div className='google mr-9'><img src={google}></img></div>
+                                <div className='slack mr-9'><img src={slack}></img></div>
+                                <div className='atlass mr-9'><img src={atlassian}></img></div>
+                                <div className='dropbox mr-9'><img src={dropbox}></img></div>
+                                <div className='shopify mr-9'><img src={shopify}></img></div>
+                                
+                            </div>
                         </div>
-                        
-
                     </section>
                 </div>
             </div>
