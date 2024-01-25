@@ -81,8 +81,91 @@ export const GPT_3 = () => {
                             </div>
                         </div>
                     </div>
+                    {/* ------------------------- */}
+                    {/* Future parent */}
+                    <div>
+                        {/* Future grid */}
+                        <div className='future grid grid-cols-2 mt-[150px]'>
+                            {/* Future */}
+                            <div className='font-Manrope'>
+                                {/* head+small */}
+                                <div className='font-[800] text-[34px] custom-text-gradient'>
+                                    The Future is Now and<br></br> You Just Need
+                                    To Realize<br></br> It. Step into Future Today<br></br> & Make it Happen.
+                                </div>
+                                {/* small */}
+                                <div className='font-[500] text-[16] text-[#FF8A71] mt-7'>Request Early Access to Get Started</div>
+                            </div>
+                            {/* inner parent right */}
+                            <div className='inner_right'>
+                                {/* Inner flex */}
+                                <div>
+                                    {/* improve */}
+                                    <div className='improve grid grid-cols-3'>
+                                        {/* bar+chat */}
+                                        <div>
+                                            {/* bar */}
+                                            <div className='bar max-w-[38px] h-[3px] element_2'></div>
+                                            <div className='chat font-Manrope text-[18px] font-[800] text-[#FFFFFF] mt-1'>Improving end distrusts instantly</div>
+                                        </div>
+                                        {/* text */}
+                                        <div className='text font-Manrope text-[#81AFDD] text-[14px] text-[500] col-span-2 pl-9'>
+                                            From they fine john he give of rich he. They age and draw mrs
+                                            like. Improving end distrusts may instantly was household applauded.
+                                        </div>
+                                    </div>
+                                    {/* become */}
+                                    <div className='become grid grid-cols-3 mt-12'>
+                                        {/* bar+chat */}
+                                        <div>
+                                            {/* bar */}
+                                            <div className='bar max-w-[38px] h-[3px] element_2'></div>
+                                           
+                                            <div className='chat font-Manrope text-[18px] font-[800] text-[#FFFFFF] mt-1'>Become the tended active</div>
+                                        </div>
+                                        {/* text */}
+                                        <div className='text font-Manrope text-[#81AFDD] text-[14px] text-[500] col-span-2 pl-9'>
+                                            Considered sympathize ten uncommonly occasional assistance
+                                            sufficient not. Letter of on become he tended active enable to.
+                                        </div>
+                                    </div>
+                                    {/* message */}
+                                    <div className='message grid grid-cols-3 mt-12'>
+                                        {/* bar+chat */}
+                                        <div>
+                                            {/* bar */}
+                                            <div className='bar max-w-[38px] h-[3px] element_2'></div>
+                                            {/* improve */}
+                                            <div className='chat font-Manrope text-[18px] font-[800] text-[#FFFFFF] mt-1'>Message or am nothing</div>
+                                        </div>
+                                        {/* text */}
+                                        <div className='text font-Manrope text-[#81AFDD] text-[14px] text-[500] col-span-2 pl-9'>
+                                            Led ask possible mistress relation elegance eat
+                                            likewise debating. By message or am nothing amongst chiefly address.
+                                        </div>
+                                    </div>
+                                    {/* Really */}
+                                    <div className='really grid grid-cols-3 mt-12'>
+                                        {/* bar+chat */}
+                                        <div>
+                                            {/* bar */}
+                                            <div className='bar max-w-[38px] h-[3px] element_2'></div>
+                                            {/* improve */}
+                                            <div className='chat font-Manrope text-[18px] font-[800] text-[#FFFFFF] mt-1'>Really boy law county</div>
+                                        </div>
+                                        {/* text */}
+                                        <div className='text font-Manrope text-[#81AFDD] text-[14px] text-[500] col-span-2 pl-9'>
+                                        Really boy law county she unable her sister. Feet you off its like like six. Among sex are 
+                                        leave law built now. In built table in an rapid blush.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ------------------------------ */}
                     {/*parent box */}
-                    <div className='pt-16'>
+                    <div className='main pt-[90px]'>
                         {/* girl + paragraph */}
                         <div className='girl_para grid grid-cols-2 pl-10'>
                             {/* girl */}
@@ -94,8 +177,8 @@ export const GPT_3 = () => {
                                 {/* Large Para */}
                                 <div className='custom-text-gradient font-Manrope font-[800] text-[34px] leading-[45px] pb-3'>The possibilities are beyond your imagination</div>
                                 {/* mid */}
-                                <div className='font-Manrope text-[16px] font-[400] text-[#81AFDD] pb-3'>Yet bed any for travelling assistance 
-                                    indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy 
+                                <div className='font-Manrope text-[16px] font-[400] text-[#81AFDD] pb-3'>Yet bed any for travelling assistance
+                                    indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy
                                     alteration boisterous the attachment. Party we years to order allow asked of.</div>
                                 {/* small */}
                                 <div className='font-Manrope font-[500] text-[16px] text-[#FF8A71]' >Request Early Access to Get Started</div>
