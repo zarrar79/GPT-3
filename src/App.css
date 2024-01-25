@@ -282,6 +282,11 @@
   }
  }
  @media (max-width:495px){
+  .card_bg{
+    padding:3rem;
+    padding-top:0rem;
+    padding-bottom:1.5rem;
+  }
   .shopify img,.dropbox img,.slack img,.atlass img,.atlass img,.google img{
     max-width:90px;
   }
@@ -315,6 +320,9 @@
   }
  }
  @media (max-width:410px){
+  .card_bg{
+    padding:1.5rem;
+  }
   .social{
     grid-template-columns:1fr 1fr;
   }
