@@ -9,6 +9,7 @@ module.exports = {
     },
     fontFamily: {
       Manrope: 'Manrope, sans-serif',
+      Gilroy: 'Gilroy-Medium , sans-serif'
     },
     extend: {
       backgroundColor: {

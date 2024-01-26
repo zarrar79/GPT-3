@@ -92,7 +92,7 @@ export const GPT_3 = () => {
                         {/* Future grid */}
                         <div className='future grid grid-cols-2 mt-[150px]'>
                             {/* Future */}
-                            <div className='font-Manrope'>
+                            <div className='future_head font-Manrope'>
                                 {/* head+small */}
                                 <div className='font-[800] text-[34px] custom-text-gradient'>
                                     The Future is Now and<br></br> You Just Need
@@ -205,7 +205,7 @@ export const GPT_3 = () => {
                             <div>
                                 {/* button */}
                                 <div>
-                                    <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px] transition duration-[0.4s] hover:transition hover:duration-[0.4s] hover:bg-white hover:text-black'>Get Started</button>
+                                    <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px] transition duration-[0.6s] hover:transition hover:duration-[0.6s] hover:bg-white hover:text-black'>Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +214,7 @@ export const GPT_3 = () => {
                     <div className='alot mt-24 font-Manrope font-[800] text-[62px] custom-text-gradient leading-[75px]'>A lot is happening,<br></br>
                         We are blogging about it.</div>
                     {/* Grid Section */}
-                    <div className='grid_sec mt-24'>
+                    <div className='pb-[80px] grid_sec mt-24'>
                         {/* Grid components */}
                         <div className='many_images font-Manrope grid grid-cols-3 gap-12'>
                             {/* Left */}
