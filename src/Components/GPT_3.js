@@ -196,31 +196,139 @@ export const GPT_3 = () => {
                         <div className='bar_2 font-Manrope flex justify-between items-center background p-9 rounded-md'>
                             {/* left */}
                             <div>
-                            {/* request */}
-                            <div className='font-[500] text-[12px] text-[#0E0E0E]'>Request Early Access to Get Started</div>
-                            {/* register */}
-                            <div className='font-[800] text-[24px] text-[]'>Register today & start exploring the endless possiblities.</div>
-                        </div>
-                        {/* right */}
-                        <div>
-                            {/* button */}
+                                {/* request */}
+                                <div className='font-[500] text-[12px] text-[#0E0E0E]'>Request Early Access to Get Started</div>
+                                {/* register */}
+                                <div className='font-[800] text-[24px] text-[]'>Register today & start exploring the endless possiblities.</div>
+                            </div>
+                            {/* right */}
                             <div>
-                                <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px] transition duration-[0.4s] hover:transition hover:duration-[0.4s] hover:bg-white hover:text-black'>Get Started</button>
+                                {/* button */}
+                                <div>
+                                    <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px] transition duration-[0.4s] hover:transition hover:duration-[0.4s] hover:bg-white hover:text-black'>Get Started</button>
+                                </div>
                             </div>
                         </div>
-                        </div>
                     </div>
-                </div>
-                {/* Grid Section */}
-                <div>
-                    {/* Grid components */}
-                    <div>
-                        {/* Left */}
-                        <div>
-                            
+                    {/* A lot is happening */}
+                    <div className='alot mt-24 font-Manrope font-[800] text-[62px] custom-text-gradient leading-[75px]'>A lot is happening,<br></br>
+                        We are blogging about it.</div>
+                    {/* Grid Section */}
+                    <div className='grid_sec mt-24'>
+                        {/* Grid components */}
+                        <div className='many_images font-Manrope grid grid-cols-3 gap-12'>
+                            {/* Left */}
+                            <div className='col-span-1'>
+                                {/*all  */}
+                                <div>
+                                    {/* image */}
+                                    <div><img src={verse}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-10 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[25.11px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer read_left mt-[222px] pb-9 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* mid */}
+                            <div className='col-span-1'>
+                                {/* AI */}
+                                <div className='ai'>
+                                    {/* image */}
+                                    <div><img src={AI}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer read_mid mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                                {/* Bitcode */}
+                                <div className='mt-12'>
+                                    {/* image */}
+                                    <div><img src={Bitcode}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer read_mid mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                                <div></div>
+                            </div>
+                            {/* right */}
+                            <div className='exclam_hook_lg'>
+                                {/* Hook */}
+                                <div>
+                                    {/* image */}
+                                    <div><img src={Hook}></img></div>
+                                    {/* text wrap */}
+                                    <div className='bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                                {/* Exclamation */}
+                                <div className='mt-12'>
+                                    {/* image */}
+                                    <div><img src={Exclamation}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        {/* Right */}
-                        <div></div>
+                         {/* responsive */}
+                         <div className='exclam_hook hidden font-Manrope'>
+                                {/* Hook */}
+                                <div>
+                                    {/* image */}
+                                    <div><img src={Hook}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer read_mid mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                                {/* Exclamation */}
+                                <div className='exc mt-12'>
+                                    {/* image */}
+                                    <div><img src={Exclamation}></img></div>
+                                    {/* text wrap */}
+                                    <div className='text_only bg-[#042C54] pl-6 pt-2 pr-9'>
+                                        {/* small */}
+                                        <div className='mb-1 font-[700] text-[11.65px] text-white'>Sep 26, 2021</div>
+                                        {/* text */}
+                                        <div className='leading-[30.29px] font-[800] text-[19.32px] text-white'>GPT-3 and Open  AI is the future. Let us exlore how it is?</div>
+                                        {/* small */}
+                                        <div className='cursor-pointer read_mid mt-[22.5px] pb-3 font-[700] text-[11.65px] text-white'>Read Full Article</div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
