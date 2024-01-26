@@ -182,6 +182,12 @@
     }
   }
  @media (max-width:1030px){
+  .bar_2{
+    display:block;
+  }
+  .bar_2 button{
+    margin-top:20px;
+  }
   .future{
     display:block;
   }
@@ -412,4 +418,9 @@
 .card_bg
 {/* global 94%+ browsers support */
   background: linear-gradient(142deg, rgba(13, 65, 119, 1) 12%, rgba(4, 44, 84, 1) 86%, rgba(27, 120, 222, 1) 100%);
+}
+.background 
+{
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
 }

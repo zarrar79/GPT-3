@@ -120,7 +120,7 @@ export const GPT_3 = () => {
                                         <div>
                                             {/* bar */}
                                             <div className='bar max-w-[38px] h-[3px] element_2'></div>
-                                           
+
                                             <div className='chat font-Manrope text-[18px] font-[800] text-[#FFFFFF] mt-1'>Become the tended active</div>
                                         </div>
                                         {/* text */}
@@ -155,8 +155,8 @@ export const GPT_3 = () => {
                                         </div>
                                         {/* text */}
                                         <div className='text font-Manrope text-[#81AFDD] text-[14px] text-[500] col-span-2 pl-9'>
-                                        Really boy law county she unable her sister. Feet you off its like like six. Among sex are 
-                                        leave law built now. In built table in an rapid blush.
+                                            Really boy law county she unable her sister. Feet you off its like like six. Among sex are
+                                            leave law built now. In built table in an rapid blush.
                                         </div>
                                     </div>
                                 </div>
@@ -183,6 +183,26 @@ export const GPT_3 = () => {
                                 {/* small */}
                                 <div className='font-Manrope font-[500] text-[16px] text-[#FF8A71]' >Request Early Access to Get Started</div>
                             </div>
+                        </div>
+                    </div>
+                    {/* bar+text+btn parent */}
+                    <div className='mt-[120px]'>
+                        {/* bar+text+btn */}
+                        <div className='bar_2 font-Manrope flex justify-between items-center background p-9 rounded-md'>
+                            {/* left */}
+                            <div>
+                            {/* request */}
+                            <div className='font-[500] text-[12px] text-[#0E0E0E]'>Request Early Access to Get Started</div>
+                            {/* register */}
+                            <div className='font-[800] text-[24px] text-[]'>Register today & start exploring the endless possiblities.</div>
+                        </div>
+                        {/* right */}
+                        <div>
+                            {/* button */}
+                            <div>
+                                <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px]'>Get Started</button>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
