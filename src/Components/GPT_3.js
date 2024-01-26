@@ -1,5 +1,10 @@
 import React from 'react'
 import feature from './Feature Image.png'
+import AI from './Ai.png'
+import Exclamation from './Exclamation.png'
+import verse from './Verse.png'
+import Hook from './Hook.png'
+import Bitcode from './Bitcode.png'
 
 export const GPT_3 = () => {
     return (
@@ -200,10 +205,22 @@ export const GPT_3 = () => {
                         <div>
                             {/* button */}
                             <div>
-                                <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px]'>Get Started</button>
+                                <button className='bg-black text-white pl-8 pr-8 pt-3 pb-3 rounded-[40px] transition duration-[0.4s] hover:transition hover:duration-[0.4s] hover:bg-white hover:text-black'>Get Started</button>
                             </div>
                         </div>
                         </div>
+                    </div>
+                </div>
+                {/* Grid Section */}
+                <div>
+                    {/* Grid components */}
+                    <div>
+                        {/* Left */}
+                        <div>
+                            
+                        </div>
+                        {/* Right */}
+                        <div></div>
                     </div>
                 </div>
             </div>
